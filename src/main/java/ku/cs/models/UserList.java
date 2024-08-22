@@ -30,7 +30,7 @@ public class UserList {
     //TODO: return true if process is completed, otherwise return false
     public boolean changePassword(String username, String oldPassword, String newPassword) {
         User user = findUserByUsername(username);
-        
+
         return false;
     }
 
